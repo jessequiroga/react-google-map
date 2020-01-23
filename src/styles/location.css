@@ -1,0 +1,14 @@
+.Location {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  min-height: 100%;
+  position: relative;
+}
+
+.fetchComment {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translation(-50%, -50%);
+}

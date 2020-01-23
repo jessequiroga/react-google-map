@@ -1,0 +1,108 @@
+.Personal {
+  width: 100%;
+  height: 168px;
+  min-height: 168px;
+  margin-bottom: 0px;
+  border-bottom: solid;
+  border-bottom-color: #e6eaed;
+  border-bottom-width: 1px;
+  padding: 16px, 0px, 24px, 0px;
+  position: relative;
+}
+
+.ratingImg {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 19.5px;
+  left: 32px;
+}
+
+.ratingText {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  left: 64px;
+  top: 16px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+
+  display: flex;
+  align-items: center;
+  color: #f69b0f;
+}
+
+.locName {
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  left: 32px;
+  top: 48px;
+  /* H3 20px / medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  /* or 26px */
+  /* Text title */
+  color: #202020;
+}
+
+.placeImg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 88px;
+  left: 32px;
+}
+
+.placeText {
+  position: absolute;
+  height: 24px;
+  left: 64px;
+  right: 39px;
+  top: 88px;
+  /* P4 16px */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+  display: flex;
+  align-items: center;
+  /* text minor */
+  color: #818286;
+}
+
+.restoreImg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 120px;
+  left: 32px;
+}
+
+.restoreText {
+  position: absolute;
+  height: 24px;
+  left: 64px;
+  right: 39px;
+  top: 120px;
+  /* P4 16px */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+  display: flex;
+  align-items: center;
+  /* text minor */
+  color: #818286;
+}
